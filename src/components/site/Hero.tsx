@@ -49,7 +49,7 @@ export function Hero() {
             href={WHATSAPP_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="group mt-4 inline-flex items-center gap-2 rounded-full bg-gold-gradient px-7 py-3.5 text-[0.78rem] font-semibold tracking-[0.14em] text-primary-foreground shadow-gold transition-transform duration-300 active:scale-[0.97] sm:text-sm"
+            className="group mt-4 inline-flex items-center gap-2 rounded-full surface-gold px-7 py-3.5 text-[0.78rem] font-semibold tracking-[0.14em] text-primary-foreground shadow-gold transition-transform duration-300 active:scale-[0.97] sm:text-sm"
           >
             FALAR COM A ADVOGADA
             <ArrowRight className="size-4 transition-transform duration-300 group-hover:translate-x-1" />

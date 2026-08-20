@@ -165,6 +165,6 @@
   }
 }
 
-@utility bg-gold-gradient {
+@utility surface-gold {
   background-image: var(--gradient-gold);
 }

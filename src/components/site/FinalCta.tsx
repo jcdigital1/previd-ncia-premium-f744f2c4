@@ -22,7 +22,7 @@ export function FinalCta() {
           href={WHATSAPP_URL}
           target="_blank"
           rel="noopener noreferrer"
-          className="mt-8 inline-flex w-full max-w-sm items-center justify-center gap-3 rounded-full bg-gold-gradient px-8 py-4 text-[0.78rem] font-semibold tracking-[0.12em] text-primary-foreground shadow-gold transition-transform duration-300 active:scale-[0.98] sm:text-sm"
+          className="mt-8 inline-flex w-full max-w-sm items-center justify-center gap-3 rounded-full surface-gold px-8 py-4 text-[0.78rem] font-semibold tracking-[0.12em] text-primary-foreground shadow-gold transition-transform duration-300 active:scale-[0.98] sm:text-sm"
         >
           <WhatsAppIcon className="size-5" />
           FALAR COM A JÉSSICA NO WHATSAPP
