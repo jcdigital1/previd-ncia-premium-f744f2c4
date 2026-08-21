@@ -10,7 +10,7 @@ export function Hero() {
         aria-hidden="true"
         className="pointer-events-none absolute -top-32 left-1/2 h-72 w-72 -translate-x-1/2 rounded-full bg-gold/10 blur-3xl"
       />
-      <div className="relative mx-auto flex min-h-[100svh] max-w-6xl flex-col justify-between px-5 pt-6 pb-7 sm:px-8">
+      <div className="relative mx-auto flex min-h-[100svh] max-w-6xl flex-col justify-between px-5 pt-4 pb-4 sm:px-8">
         <motion.div
           initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}
@@ -24,23 +24,23 @@ export function Hero() {
             height={520}
             fetchPriority="high"
             decoding="async"
-            className="h-[27svh] max-h-56 w-auto object-contain drop-shadow-[0_18px_40px_rgba(0,0,0,0.6)] sm:h-64 sm:max-h-72"
+            className="h-[38svh] max-h-72 w-auto object-contain drop-shadow-[0_18px_40px_rgba(0,0,0,0.6)] sm:h-80 sm:max-h-96"
           />
 
-          <h1 className="mt-3 text-[clamp(1.6rem,7.4vw,2.9rem)] leading-[1.08] tracking-tight">
+          <h1 className="mt-1 text-[clamp(1.6rem,7.4vw,2.9rem)] leading-[1.08] tracking-tight">
             Jéssica Rodrigues
             <span className="block text-gold-gradient">Advocacia</span>
           </h1>
 
-          <p className="eyebrow mt-2">Advocacia Previdenciária | INSS</p>
+          <p className="eyebrow mt-1">Advocacia Previdenciária | INSS</p>
 
-          <div className="gold-rule mt-3 w-20" />
+          <div className="gold-rule mt-2 w-20" />
 
-          <p className="mt-3 max-w-md font-display text-[clamp(1.15rem,5.2vw,1.85rem)] leading-snug text-foreground">
+          <p className="mt-2 max-w-md font-display text-[clamp(1.15rem,5.2vw,1.85rem)] leading-snug text-foreground">
             Benefício negado pelo INSS não significa fim.
           </p>
 
-          <p className="mt-2 max-w-md text-[0.82rem] leading-relaxed text-muted-foreground sm:text-sm">
+          <p className="mt-1 hidden max-w-md text-[0.82rem] leading-relaxed text-muted-foreground sm:block sm:text-sm">
             Há mais de 10 anos atuando para reverter negativas e defender direitos
             previdenciários. Atendimento em todo o Brasil.
           </p>
@@ -49,7 +49,7 @@ export function Hero() {
             href={WHATSAPP_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="group mt-4 inline-flex items-center gap-2 rounded-full surface-gold px-7 py-3.5 text-[0.78rem] font-semibold tracking-[0.14em] text-primary-foreground shadow-gold transition-transform duration-300 active:scale-[0.97] sm:text-sm"
+            className="group mt-2 inline-flex items-center gap-2 rounded-full surface-gold px-7 py-2.5 text-[0.78rem] font-semibold tracking-[0.14em] text-primary-foreground shadow-gold transition-transform duration-300 active:scale-[0.97] sm:mt-4 sm:py-3.5 sm:text-sm"
           >
             FALAR COM A ADVOGADA
             <ArrowRight className="size-4 transition-transform duration-300 group-hover:translate-x-1" />
@@ -62,7 +62,7 @@ export function Hero() {
           transition={{ duration: 0.8, delay: 0.25 }}
           className="mt-5 shrink-0"
         >
-          <ContactRow />
+          <ContactRow compact />
         </motion.div>
       </div>
     </header>
