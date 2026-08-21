@@ -10,7 +10,7 @@ export function Hero() {
         aria-hidden="true"
         className="pointer-events-none absolute -top-32 left-1/2 h-72 w-72 -translate-x-1/2 rounded-full bg-gold/10 blur-3xl"
       />
-      <div className="relative mx-auto flex min-h-[100svh] max-w-6xl flex-col justify-between px-5 pt-4 pb-5 sm:px-8">
+      <div className="relative mx-auto flex min-h-[100svh] max-w-6xl flex-col justify-between px-5 pt-4 pb-4 sm:px-8">
         <motion.div
           initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}
