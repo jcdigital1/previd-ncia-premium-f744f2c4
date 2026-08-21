@@ -40,7 +40,7 @@ export function Hero() {
             Benefício negado pelo INSS não significa fim.
           </p>
 
-          <p className="mt-1 max-w-md text-[0.82rem] leading-relaxed text-muted-foreground sm:text-sm">
+          <p className="mt-1 hidden max-w-md text-[0.82rem] leading-relaxed text-muted-foreground sm:block sm:text-sm">
             Há mais de 10 anos atuando para reverter negativas e defender direitos
             previdenciários. Atendimento em todo o Brasil.
           </p>
