@@ -10,7 +10,7 @@ export function Hero() {
         aria-hidden="true"
         className="pointer-events-none absolute -top-32 left-1/2 h-72 w-72 -translate-x-1/2 rounded-full bg-gold/10 blur-3xl"
       />
-      <div className="relative mx-auto flex min-h-[100svh] max-w-6xl flex-col justify-between px-5 pt-6 pb-7 sm:px-8">
+      <div className="relative mx-auto flex min-h-[100svh] max-w-6xl flex-col justify-between px-5 pt-4 pb-5 sm:px-8">
         <motion.div
           initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}
@@ -24,10 +24,10 @@ export function Hero() {
             height={520}
             fetchPriority="high"
             decoding="async"
-            className="h-[27svh] max-h-56 w-auto object-contain drop-shadow-[0_18px_40px_rgba(0,0,0,0.6)] sm:h-64 sm:max-h-72"
+            className="h-[34svh] max-h-64 w-auto object-contain drop-shadow-[0_18px_40px_rgba(0,0,0,0.6)] sm:h-72 sm:max-h-80"
           />
 
-          <h1 className="mt-3 text-[clamp(1.6rem,7.4vw,2.9rem)] leading-[1.08] tracking-tight">
+          <h1 className="mt-2 text-[clamp(1.6rem,7.4vw,2.9rem)] leading-[1.08] tracking-tight">
             Jéssica Rodrigues
             <span className="block text-gold-gradient">Advocacia</span>
           </h1>
