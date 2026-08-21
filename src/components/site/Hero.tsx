@@ -24,7 +24,7 @@ export function Hero() {
             height={520}
             fetchPriority="high"
             decoding="async"
-            className="h-[34svh] max-h-64 w-auto object-contain drop-shadow-[0_18px_40px_rgba(0,0,0,0.6)] sm:h-72 sm:max-h-80"
+            className="h-[38svh] max-h-72 w-auto object-contain drop-shadow-[0_18px_40px_rgba(0,0,0,0.6)] sm:h-80 sm:max-h-96"
           />
 
           <h1 className="mt-2 text-[clamp(1.6rem,7.4vw,2.9rem)] leading-[1.08] tracking-tight">
@@ -49,7 +49,7 @@ export function Hero() {
             href={WHATSAPP_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="group mt-4 inline-flex items-center gap-2 rounded-full surface-gold px-7 py-3.5 text-[0.78rem] font-semibold tracking-[0.14em] text-primary-foreground shadow-gold transition-transform duration-300 active:scale-[0.97] sm:text-sm"
+            className="group mt-3 inline-flex items-center gap-2 rounded-full surface-gold px-7 py-3 text-[0.78rem] font-semibold tracking-[0.14em] text-primary-foreground shadow-gold transition-transform duration-300 active:scale-[0.97] sm:mt-4 sm:py-3.5 sm:text-sm"
           >
             FALAR COM A ADVOGADA
             <ArrowRight className="size-4 transition-transform duration-300 group-hover:translate-x-1" />
@@ -62,7 +62,7 @@ export function Hero() {
           transition={{ duration: 0.8, delay: 0.25 }}
           className="mt-5 shrink-0"
         >
-          <ContactRow />
+          <ContactRow compact />
         </motion.div>
       </div>
     </header>
