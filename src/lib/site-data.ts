@@ -118,3 +118,15 @@ export type GoogleReview = {
  * e o carrossel passa a renderizá-las automaticamente.
  */
 export const googleReviews: GoogleReview[] = [];
+
+/** Prints reais das avaliações publicadas no Google. */
+export const reviewScreenshots: string[] = [
+  "https://i.postimg.cc/WpxJMHJ9/IMG-5592.jpg",
+  "https://i.postimg.cc/ry7tSPtj/IMG-5591.jpg",
+  "https://i.postimg.cc/c1P8Qb8M/IMG-5590.jpg",
+  "https://i.postimg.cc/L4GZzbZj/IMG-5589.jpg",
+  "https://i.postimg.cc/Vs2bjVbq/IMG-5587.jpg",
+  "https://i.postimg.cc/h4XdQBhr/IMG-5586.jpg",
+  "https://i.postimg.cc/PfCwvjNQ/IMG-5583.jpg",
+  "https://i.postimg.cc/PfCwvjNm/IMG-5582.jpg",
+];
